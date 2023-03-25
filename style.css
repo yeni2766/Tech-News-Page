@@ -1,0 +1,485 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+   
+    overflow: hidden; 
+
+}
+html,body{
+  overflow-x: hidden; 
+}
+
+
+.logo {
+    float: left;
+    position: relative;
+    left:80px;
+}
+nav ul {
+    float: right;
+    margin-right: 100px;
+
+    
+}
+.websitewrapper{
+  position: relative;
+  left:50px;
+  
+}
+nav ul li{
+    display: inline-block;
+    margin:10px;
+    font-family: 'Inter', sans-serif;
+    font-size: small;
+
+}
+
+.wrapper{
+    margin:40px;
+}
+
+section .row .col-2{
+    width:500px;
+    height:400px;
+    border: 1px solid black;
+}
+section .row .col-1{
+    width:500px;
+    height:400px;
+  
+}
+section{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:80px;
+    left:200px;
+}
+
+section .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+section .row .col-1{
+    flex-basis: 85%;
+    
+}
+section .row .col-1{
+    flex-basis: 90%;
+    
+}
+
+section .row .col-2{
+   background-color: hsl(240, 100%, 5%);
+    
+}
+section .row .col-2 h2{
+    color:white;
+    font-family: 'Inter', sans-serif;
+    font-size: large;
+    margin-top: 35px;
+
+     
+ }
+
+ section .row .col-2 p{
+    color:white;
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+    font-size: smaller;
+   position: relative;
+right:10px;
+width:80%;
+margin-top: -15px;
+     
+ }
+ 
+
+section .row .col-2 .secondheader{
+    color:hsl(35, 77%, 62%);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-left:20px;
+
+     
+ }
+
+ section .row .col-2 article{
+
+   margin-left: 20px;
+   
+
+   position: relative;
+   bottom:55px;
+  
+
+     
+ }
+ 
+ 
+
+.firstgrid{
+    display:grid;
+    grid-template-columns: 200px 200px 200px;
+
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+   
+  }
+  
+  .full-column {
+    grid-row: 1 / 2;
+    
+    width:100%;
+    height:250px;
+    background-image: url('https://github.com/OliverCadman/xander-mini-projects/blob/main/news-homepage-main/assets/images/image-web-3-desktop.jpg?raw=true');
+    background-size: cover;
+}
+  
+  .half-column-1 {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+
+    height:150px;
+    width:50%;
+
+
+
+  }
+  .half-column-2 {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+   
+    height:150px;
+    width:50%;
+    
+   
+  
+  }
+  
+  h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    width:200px;
+    padding: 10px;
+    font-size: 35px;
+    text-align: left;
+    position: relative;
+    bottom:20px;
+    right:10px;
+  }
+
+  p{
+    font-size: smaller;
+    font-family: 'Inter', sans-serif;
+    padding: 10px;
+    color:hsl(236, 13%, 42%) ;
+
+  }
+
+  button{
+    margin-left: 10px;
+    width:100px;
+    height:30px;
+    color:white;
+    background-color:hsl(5, 85%, 63%);
+    border:none;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-size: x-small;
+    letter-spacing: 2px;
+   
+
+    
+  }
+
+/* 
+
+
+
+*/
+
+
+
+/**/
+.container {
+    display: flex;
+    justify-content: space-between;
+   margin-right:400px;
+
+}
+  
+  .column {
+    flex-grow: 1;
+    display: flex;
+   
+  }
+  
+  .image {
+    width: 100px; 
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+
+  #secondpart{
+    margin-top:30px;
+    margin-left: -140px;
+ 
+  }
+  .border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:260px;
+    border: 1px solid   hsl(236, 13%, 42%) ;
+    position: relative;
+    bottom:40px;
+    left:23px;
+
+   
+  }
+  #secondpart .container .column .name {
+          
+
+    position: relative;
+    left:10px;
+  
+
+     
+       }
+  
+  #secondpart .container .column .name h1{
+          
+    font-family: 'Inter', sans-serif;
+    font-size: x-large;
+    position: relative;
+    bottom:40px;
+    color:grey ;
+
+     
+       }
+       #secondpart .container .column .name1 h1{
+          
+        font-family: 'Inter', sans-serif;
+        font-size: x-large;
+        position: relative;
+        bottom:40px;
+        color:grey ;
+    
+         
+           }
+    
+       #secondpart .container .column .name1{
+   position: relative;
+   right:70px;
+    
+         
+           }
+
+       
+       #secondpart .container .column .name h2{
+          
+        font-family: 'Inter', sans-serif;
+        font-size: small;
+        
+        position: relative;
+        bottom:70px;
+    
+
+         
+           }
+
+
+           #secondpart .container .column .name p{
+          
+            font-family: 'Inter', sans-serif;
+            font-size: smaller;
+            
+            position: relative;
+            bottom:90px;
+            right:10px;
+        
+
+             
+               }
+         
+               #secondpart .container .column .name1 h2{
+          
+                font-family: 'Inter', sans-serif;
+                font-size: small;
+                
+                position: relative;
+                bottom:70px;
+            
+        
+                 
+                   }
+        
+                   #secondpart .container .column .name1 p{
+                  
+                    font-family: 'Inter', sans-serif;
+                    font-size: smaller;
+                    
+                    position: relative;
+                    bottom:90px;
+                    right:10px;
+                
+        
+                     
+                       }
+                 
+                       .halfcolumnwrap{
+                        position: relative;
+                        left:10px;
+                        gap:90px;
+                    
+                        display:flex;
+                        flex-direction: row;
+                       
+                        }
+@media screen and (max-width:736px){
+  aside{
+    position: absolute;
+   right:-5px;
+   margin-top:15px;
+
+
+  }
+  .hamburgerimg{
+    
+    height:20px;
+  }
+  .wrapper nav ul li{
+    visibility: hidden;
+  }
+  .wrapper img{
+ position: relative;
+ left:-40px;
+ bottom:35px;
+  }
+  .websitewrapper{
+   position: relative;
+   bottom:70px;
+   left:10px;
+  
+   align-items: center;
+   justify-content: center;
+
+ left:10px;
+  
+  }
+  .websitewrapper section .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .halfcolumnwrap{
+    position: relative;
+    left:40px;
+    
+
+    display:flex;
+    flex-direction: column;
+   
+    }
+
+    .halfcolumnwrap .half-column-2{
+      position: relative;
+      bottom:140px;
+      right:5px;
+ 
+    }
+
+    .halfcolumnwrap h1{
+      font-size: 50px;
+      width:350px;
+      
+    }
+    .halfcolumnwrap p{
+      font-size: 17px;
+width:380px;
+    }
+
+    .halfcolumnwrap button{
+     height:60px;
+     width:200px;
+     font-size: 20px;
+    }
+
+    .column2{
+      position: relative;
+      left:30px;
+     
+    }
+
+  #secondpart article .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+   
+ 
+
+
+
+  }
+  #secondpart article .container .column{
+    justify-content: space-evenly;
+position: relative;
+top:50px;
+    margin-top:-70px;
+    gap:10px;
+  }
+  
+  #secondpart article .container img{
+   width:100px;
+   
+ 
+    object-fit: cover; 
+
+
+}
+#secondpart{
+margin-left: -40px;
+}
+#secondpart article .container .column{
+margin-bottom: 10px;
+
+
+}
+
+
+#secondpart article .container .name1{
+position: relative;
+left:10px;
+
+}
+#secondpart article .container .name{
+margin-left: 0px;
+  
+  }
+  .websitewrapper{
+    
+    justify-content: center;
+    align-items: right;
+  }
+}
+
+
+
+@media screen and (min-width:736px){
+  .hamburgerimg{
+    visibility: hidden;
+   
+  }
+}
