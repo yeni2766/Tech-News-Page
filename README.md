@@ -6,3 +6,5 @@ Features
 - Responsive design using CSS grid and flexbox
 - Clean and minimalistic design
 - Easy to navigate layout
+
+Click <a href = 'https://yeni2766.github.io/Tech-News-Page/'>Here</a>
